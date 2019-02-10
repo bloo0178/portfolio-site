@@ -1,0 +1,9 @@
+@import "../../common/_variables";
+
+.container {
+  background-color: $secondary-background;
+  color: $secondary-text;
+  height: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
