@@ -1,0 +1,22 @@
+@import "../../common/_variables";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: $primary-background;
+    color: $primary-text;
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.links {
+    a {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        color: $accent-text;
+    }
+}

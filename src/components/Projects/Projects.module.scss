@@ -7,3 +7,11 @@
   padding-left: 4rem;
   padding-right: 4rem;
 }
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
