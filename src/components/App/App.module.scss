@@ -1,3 +1,6 @@
+@import "../../common/_variables";
+
 .App {
   text-align: center;
+  background-color: $secondary-background;
 }
