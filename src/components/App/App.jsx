@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar"
 import Hero from "../Hero/Hero";
 import About from "../About/About";
 import Projects from '../Projects/Projects';
+import Footer from '../Footer/Footer';
 
 class App extends Component {
   render() {
@@ -11,8 +12,8 @@ class App extends Component {
       <div className={styles.App}>
         <Navbar />
         <Hero />
-        <About />
         <Projects />
+        <Footer />
       </div>
     );
   }

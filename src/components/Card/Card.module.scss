@@ -3,10 +3,10 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
-    background-color: $secondary-background;
-    color: $secondary-text;
+    background-color: $third-background;
+    color: $primary-text;
     width: 15rem;
     height: 15rem;
     padding: 1rem;

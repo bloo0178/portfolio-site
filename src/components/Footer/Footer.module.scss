@@ -1,0 +1,18 @@
+@import "../../common/_variables";
+
+.container {
+    background-color: $primary-background;
+    padding-bottom: 2rem;
+    color: $primary-text;
+}
+
+.icon {
+  color: $primary-text;
+  font-size: 2rem;
+  position: relative;
+  bottom: 0;
+}
+
+.icon:hover {
+  color: $accent-text;
+}
