@@ -5,7 +5,7 @@ class About extends React.Component {
   render() {
     return (
       <div className={styles.container}>
-        <h2>About</h2>
+        <h2>About.</h2>
         <p>
           Lorem ipsum dolor sit amet, congue tincidunt cu nec, diam exerci id
           sed. Ne pri errem alterum, ne quis quaerendum est, dico inimicus his

@@ -16,10 +16,15 @@ class Projects extends React.Component {
   render() {
     return (
       <div className={styles.container}>
-        <div>
-          <h2>Projects</h2>
-        </div>
+        {/*<div>
+          <h2>Projects.</h2>
+        </div>*/}
         <div className={styles.cards}>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
           <Card />
           <Card />
           <Card />

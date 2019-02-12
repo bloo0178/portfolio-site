@@ -1,9 +1,13 @@
 @import "../../common/_variables";
 
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
     background-color: $secondary-background;
     color: $secondary-text;
-    height: 100%;
+    height: 100vh;
     padding-left: 4rem;
     padding-right: 4rem;
 
