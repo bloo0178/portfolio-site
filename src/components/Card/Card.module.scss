@@ -5,8 +5,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
-    background-color: $third-background;
-    color: $primary-text;
+    background-color: $card-background;
+    color: $card-text-color;
     width: 15rem;
     height: 15rem;
     padding: 1rem;
@@ -18,6 +18,10 @@
     a {
         margin-right: 1rem;
         margin-left: 1rem;
-        color: $accent-text;
+        color: $card-links-color;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
     }
 }

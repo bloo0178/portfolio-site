@@ -1,7 +1,6 @@
 @import "../../common/_variables";
 
 .navbar {
-  background-color: $navbar-background;
   position: absolute;
   top: 0;
   width: 100%;
@@ -15,15 +14,14 @@
 }
 
 .icon {
-  color: $primary-text;
+  color: $icon-color;
   float: right;
   margin: 1rem;
   font-size: 2rem;
 }
 
 .icon:hover {
-  color: $accent-text;
-  transition: color .25s ease-in-out;
+  color: $icon-hover-color;  
+  transition: $icon-hover-transition;
 }
-
 

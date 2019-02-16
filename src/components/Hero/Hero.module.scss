@@ -1,8 +1,7 @@
 @import "../../common/_variables";
 
 .container {
-  background-color: $primary-background;
-  color: $primary-text;
+  background-color: transparent;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,7 +18,7 @@
 }
 
 .icon {
-  color: $primary-text;
+  color: $icon-color;
   float: right;
   margin: 1rem;
   font-size: 2rem;
@@ -28,8 +27,11 @@
 }
 
 .icon:hover {
-    color: $accent-text;
+    color: $icon-hover-color;
+    transition: $icon-hover-transition;
 }
+
+// https://codepen.io/bewley/pen/revRQv
 
 @-moz-keyframes bounce {
   0%,
@@ -98,4 +100,4 @@
   animation: bounce 2s infinite;
 }
 
-// https://codepen.io/bewley/pen/revRQv
+

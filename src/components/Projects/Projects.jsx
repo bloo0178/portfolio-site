@@ -13,6 +13,12 @@ let sampleData = [
 ];
 
 class Projects extends React.Component {
+
+
+      //console.log(document.body.scrollHeight); 
+      //console.log(window.innerHeight);
+      //console.log(window.scrollY);
+
   render() {
     return (
       <div className={styles.container}>

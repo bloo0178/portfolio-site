@@ -2,12 +2,6 @@ import React from "react";
 import styles from "./Hero.module.scss";
 import { IoMdArrowDown } from "react-icons/io";
 
-/*
-$(window).scroll(function(){
-    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); 
-  //250 is fade pixels
-  });
-*/
 
 class Hero extends React.Component {
   state = {
@@ -16,7 +10,7 @@ class Hero extends React.Component {
 
   componentDidMount() {
     window.onscroll = () => {
-      const newScrollHeight = Math.ceil(window.scrollY / 35) * 35;
+      const newScrollHeight = Math.ceil(window.scrollY / 15) * 15;
       if (this.state.currentScrollHeight !== newScrollHeight) {
         this.setState({ currentScrollHeight: newScrollHeight });
       }
@@ -24,7 +18,7 @@ class Hero extends React.Component {
   }
 
   render() {
-    const opacity = Math.min(100 / this.state.currentScrollHeight, 1);
+    const opacity = Math.min(45 / this.state.currentScrollHeight, 1);
     return (
       <div className={styles.container}>
         <div className={styles.title} style={{ opacity }}>

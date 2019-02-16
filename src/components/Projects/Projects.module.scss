@@ -1,15 +1,14 @@
 @import "../../common/_variables";
 
 .container {
-  background-color: $primary-background;
-  color: $primary-text;
-  padding-top: 10rem;
-  padding-bottom: 1.5rem;
+  background-color: transparent;
+  //min-height: 100vh;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   padding-left: 4rem;
   padding-right: 4rem;
   display: flex; 
   flex-direction: column;
-  justify-content: center;
 }
 
 .cards {
@@ -17,5 +16,4 @@
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-
 }
