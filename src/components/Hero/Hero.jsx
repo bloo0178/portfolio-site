@@ -25,17 +25,17 @@ class Hero extends React.Component {
         </div>
         <div style={{ opacity }}>
           <p>
-            My name is <strong>Jeff Bloom</strong>. I am passionate about
-            applying technology to make life better, and the infinite pursuit
-            that has set me on. My chosen niche is software development, with my
-            technical skills being grounded in over a decade of practical
-            business experience.
+            My name is <strong>Jeff Bloom</strong>. I am passionate about the
+            infinite pursuit of learning, applying, and improving technology to
+            evolve the things we do and how we do them. My chosen niche is
+            software development, with my technical skills being grounded in
+            over a decade of practical business experience.
           </p>
         </div>
-        <IoMdArrowDown
+        {/*<IoMdArrowDown
           className={`${styles.icon} ${styles.bounce}`}
           style={{ opacity }}
-        />
+        />*/}
       </div>
     );
   }
