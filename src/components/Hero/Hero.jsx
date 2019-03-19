@@ -26,26 +26,10 @@ class Hero extends React.Component {
         <div style={{ opacity }}>
           <p>
             My name is <strong>Jeff Bloom</strong>. I am passionate about
-            all things software, and currently work heavily with the MERN stack
-            (MongoDB, Express, React, & Node).
-          </p>
-          <p>
-            Prior to following a software development career path, I built 10+
-            years of experience as both a Systems Analyst within a large, global
-            corporation and most recently as a Solutions Architect at a
-            nationally-recognized digital business consultancy.
-          </p>
-
-          <p>
-            My background has provided me firsthand insights into many different
-            aspects of the IT, custom software, and business technology worlds -
-            and also how they all tie together in the context of larger
-            objectives.
-          </p>
-          <p>
-            This site is intended to serve as a showcase of my technical
-            skillset. If my background and capabilities interest you or you'd
-            like to learn more, let's connect and talk further!
+            applying technology to make life better, and the infinite pursuit
+            that has set me on. My chosen niche is software development, with my
+            technical skills being grounded in over a decade of practical
+            business experience.
           </p>
         </div>
         <IoMdArrowDown

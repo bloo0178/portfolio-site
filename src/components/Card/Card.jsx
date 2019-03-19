@@ -15,8 +15,8 @@ class Card extends React.Component {
           </p>
         </div>
         <div className={styles.links}>
-          <a href="#">Demo ></a>
-          <a href="#">Source ></a>
+          <a href="https://jeffbloom.io">Demo ></a>
+          <a href="https://jeffbloom.io">Source ></a>
         </div>
       </div>
     );
