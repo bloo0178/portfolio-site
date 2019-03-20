@@ -8,7 +8,6 @@ class Hero extends React.Component {
         <div className={styles.title}>
           <h1>Jeff Bloom</h1>
           <h2>// Full Stack Dev</h2>
-          <h2>// Solutions Architect</h2>
         </div>
         <div />
       </div>
