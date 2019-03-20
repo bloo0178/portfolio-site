@@ -15,17 +15,12 @@ let sampleData = [
 
 class Projects extends React.Component {
 
-
-      //console.log(document.body.scrollHeight); 
-      //console.log(window.innerHeight);
-      //console.log(window.scrollY);
-
   render() {
     return (
       <div className={styles.container}>
-        {/*<div>
-          <h2>Projects.</h2>
-        </div>*/}
+        <div>
+          <h2>Projects</h2>
+        </div>
         <div className={styles.cards}>
           <Card />
           <Card />

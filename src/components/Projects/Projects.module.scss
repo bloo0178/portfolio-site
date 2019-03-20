@@ -2,13 +2,13 @@
 
 .container {
   background-color: transparent;
-  //min-height: 100vh;
   padding-top: 4rem;
   padding-bottom: 4rem;
   padding-left: 4rem;
   padding-right: 4rem;
   display: flex; 
   flex-direction: column;
+  text-align: center; 
 }
 
 .cards {
