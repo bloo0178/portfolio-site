@@ -7,12 +7,11 @@
     align-content: center;
     background-color: $card-background;
     color: $card-text-color;
-    width: 15rem;
-    height: 15rem;
+    width: 80%;
+    max-width: 75rem;
     padding: 1rem;
     margin: 1rem;
 }
-
 
 .links {
     a {
