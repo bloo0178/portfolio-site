@@ -35,8 +35,8 @@ class Projects extends React.Component {
       key={project.projectId}
       description={project.description}
       title={project.name}
-      demoURL={project.demoURL}
-      srcURL={project.srcURL}
+      demoUrl={project.demoUrl}
+      srcUrl={project.codeUrl}
       />
     ))}
     </>

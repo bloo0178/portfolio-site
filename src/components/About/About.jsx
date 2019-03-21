@@ -21,10 +21,11 @@ export class About extends React.Component {
           </p>
           <p>
             My direct experience with dozens of organizations across a variety
-            of industries has provided me direct insight into how user needs
-            drive business and shape technology ad infinitum. This in turn has
-            shaped the way I think about technology - always within the broader
-            context of user, organizational and business goals.
+            of industries has provided me direct insight into the continuous
+            iterative cycle of how user needs drive business and shape
+            technology. This experience has shaped the way I think about
+            technology - always within the broader context of user,
+            organizational and business goals.
           </p>
           <p>
             The remainder of this site is intended to serve as a showcase of my
