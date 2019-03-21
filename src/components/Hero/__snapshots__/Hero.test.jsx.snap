@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero component it matches the snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="title"
+  >
+    <h1>
+      Jeff Bloom
+    </h1>
+    <h2>
+      // Full Stack Dev
+    </h2>
+  </div>
+  <div />
+</div>
+`;
