@@ -3,7 +3,7 @@ import styles from "./Card.module.scss";
 
 class Card extends React.Component {
   render() {
-    const { demoUrl, srcUrl, title, description } = this.props;
+    const { demoUrl, srcUrl, title, description, tech } = this.props;
     return (
       <div className={styles.container}>
         <div>
@@ -11,6 +11,9 @@ class Card extends React.Component {
         </div>
         <div>
           <p>{description}</p>
+        </div>
+        <div className={styles.stack}>
+          <p>Stack: {tech}</p>
         </div>
         <div className={styles.links}>
           <a href={demoUrl}>Demo ></a>

@@ -3,24 +3,13 @@ import styles from "./Projects.module.scss";
 import Card from "../Card/Card";
 import axios from 'axios';
 
-// eslint-disable-next-line
-let sampleData = [
-  {
-    title: "Title",
-    description: `Quo alii voluptua apeirian in. Ex modus noster nostrum sed. Qui no
-  paulo platonem, has te ridens praesent.`,
-    source: "#",
-    demo: "#"
-  }
-];
-
 class Projects extends React.Component {
   state = {
     projects: []
   }
 
   componentDidMount() {
-    axios.get(`https://7c0gcbb2ua.execute-api.us-east-1.amazonaws.com/prod`)
+    axios.get(`https://caufjc1czf.execute-api.us-east-1.amazonaws.com/dev/projects`)
     .then(res => {
       console.log(res.data);
       const projects = res.data.Items; 
@@ -37,6 +26,7 @@ class Projects extends React.Component {
       title={project.name}
       demoUrl={project.demoUrl}
       srcUrl={project.codeUrl}
+      tech={project.tech}
       />
     ))}
     </>
