@@ -9,7 +9,7 @@ class Projects extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`https://caufjc1czf.execute-api.us-east-1.amazonaws.com/dev/projects`)
+    axios.get(`https://4q9qg39g1b.execute-api.us-east-1.amazonaws.com/prod/projects`)
     .then(res => {
       console.log(res.data);
       const projects = res.data.Items; 
