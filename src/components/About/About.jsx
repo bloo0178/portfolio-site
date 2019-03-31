@@ -5,32 +5,42 @@ export class About extends React.Component {
   render() {
     return (
       <div className={styles.container}>
-        <h2>About</h2>
+        <h1>About</h1>
         <div className={styles.content}>
           <p>
-            I am absolutely obsessed with the infinite pursuit of learning,
+            I am absolutely obsessed with the infinite loop of learning,
             applying, and improving technology to evolve the things we do and
-            how we do them.
+            how we do them. My passion is software engineering, with my
+            technical skills being grounded in over 10 years of practical
+            business experience.
           </p>
           <p>
-            My passion is software development, with my technical skills being
-            grounded in over a decade of practical business experience. I have
-            held roles as both a Business Systems Analyst within a global
-            corporation and most recently as a Solutions Architect at a
-            nationally-recognized digital business consultancy.
+            I have held multiple Business Systems Analyst roles within a major
+            global corporation and most recently held a Solutions Architect role
+            at a nationally-recognized digital business consultancy. Across all
+            positions, I've operated within a variety of team structures and
+            gained extensive experience leading complex initiatives inclusive of
+            UX, BA, Dev, QA, and PM talent.
           </p>
           <p>
-            My direct experience with dozens of organizations across a variety
-            of industries has provided me direct insight into the continuous
-            iterative cycle of how user needs drive business and shape
-            technology. This experience has shaped the way I think about
-            technology - always within the broader context of user,
-            organizational and business goals.
+            My direct experience with dozens of organizations across various
+            industries has provided me insight into the ideal iterative cycle of
+            identifying user needs to drive business and organizational goal,
+            which in turn inform technology choices. I've learned to avoid
+            dogmatic views towards any particular technology and instead
+            recognize that every technology choice has pros and cons, as well as
+            an ideal use case. Given that, I believe a major component of
+            staying competitive in today's tech-centric business landscape is to
+            maintain a position of relative fluency and adaptability with
+            respect to all modern technology trends.
           </p>
           <p>
-            The remainder of this site is intended to serve as a showcase of my
-            technical skillset. If my background and capabilities interest you,
-            don't hesitate to connect so that we can continue the conversation!
+            Technologies that currently interest me are React and it's extensive
+            ecosystem for interface and mobile development, and serverless
+            stacks for backend implementations. The remainder of this site is
+            intended to serve as a showcase of my technical skillset. If my
+            background and capabilities interest you, don't hesitate to connect
+            so that we can continue the conversation!
           </p>
         </div>
       </div>
