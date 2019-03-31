@@ -6,7 +6,8 @@ class Hero extends React.Component {
     return (
       <div className={styles.container}>
         <div className={styles.title}>
-          <h1>Jeff Bloom</h1>
+          {/*eslint-disable-next-line*/}
+          <h1>{`Jeff Bloom`}</h1>
           {/*eslint-disable-next-line*/}
           <h2>// Full Stack Dev</h2>
         </div>
