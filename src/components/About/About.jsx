@@ -17,30 +17,29 @@ export class About extends React.Component {
           <p>
             I have held multiple Business Systems Analyst roles within a major
             global corporation and most recently held a Solutions Architect role
-            at a nationally-recognized digital business consultancy. Across all
-            positions, I've operated within a variety of team structures and
-            gained extensive experience leading complex initiatives inclusive of
-            UX, BA, Dev, QA, and PM talent.
+            at a nationally-recognized digital business consultancy. I've
+            operated within a variety of team structures and have extensive
+            experience leading complex initiatives inclusive of UX, BA, Dev, QA,
+            and PM talent.
           </p>
           <p>
             My direct experience with dozens of organizations across various
             industries has provided me insight into the ideal iterative cycle of
-            identifying user needs to drive business and organizational goal,
+            identifying user needs to drive business and organizational goals,
             which in turn inform technology choices. I've learned to avoid
             dogmatic views towards any particular technology and instead
             recognize that every technology choice has pros and cons, as well as
-            an ideal use case. Given that, I believe a major component of
-            staying competitive in today's tech-centric business landscape is to
+            an ideal use case. I believe a major component of staying
+            competitive in today's tech-centric business landscape is to
             maintain a position of relative fluency and adaptability with
             respect to all modern technology trends.
           </p>
           <p>
             Technologies that currently interest me are React and it's extensive
             ecosystem for interface and mobile development, and serverless
-            stacks for backend implementations. The remainder of this site is
-            intended to serve as a showcase of my technical skillset. If my
-            background and capabilities interest you, don't hesitate to connect
-            so that we can continue the conversation!
+            stacks for backend implementations. If my background and
+            capabilities interest you, don't hesitate to connect so that we can
+            continue the conversation!
           </p>
         </div>
       </div>
