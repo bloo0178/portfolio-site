@@ -23,23 +23,22 @@ export class About extends React.Component {
             and PM talent.
           </p>
           <p>
-            My direct experience with dozens of organizations across various
-            industries has provided me insight into the ideal iterative cycle of
+            My experience with dozens of organizations across various industries
+            has provided me insight into the ideal iterative cycle of
             identifying user needs to drive business and organizational goals,
-            which in turn inform technology choices. I've learned to avoid
-            dogmatic views towards any particular technology and instead
-            recognize that every technology choice has pros and cons, as well as
-            an ideal use case. I believe a major component of staying
-            competitive in today's tech-centric business landscape is to
-            maintain a position of relative fluency and adaptability with
-            respect to all modern technology trends.
+            and only then making technology choices. I try to avoid dogmatic
+            views towards any particular technology, and instead work backwards
+            from the intended use cases. I believe maintaining this position of
+            adaptability and relative fluency towards all relevant tech trends is
+            key for individuals and businesses alike to staying competitive in our
+            increasingly tech-centric world.
           </p>
           <p>
-            Technologies that currently interest me are React and it's extensive
-            ecosystem for interface and mobile development, and serverless
-            stacks for backend implementations. If my background and
-            capabilities interest you, don't hesitate to connect so that we can
-            continue the conversation!
+            My current focus has been React and it's extensive ecosystem for
+            interface and mobile development, and the use of serverless stacks
+            for backend implementations. If my background and capabilities
+            interest you, don't hesitate to connect so that we can continue the
+            conversation!
           </p>
         </div>
       </div>
