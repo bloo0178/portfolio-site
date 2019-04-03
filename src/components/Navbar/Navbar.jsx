@@ -10,8 +10,8 @@ class NavBar extends React.Component {
     return (
       <nav className={styles.navbar}>
       <div className={styles.iconsContainer}>
-        <IoLogoLinkedin className={styles.icon} />
-        <IoLogoGithub className={styles.icon} />
+        <a href={"https://www.linkedin.com/in/bloomjeff/"}><IoLogoLinkedin className={styles.icon} /></a>
+        <a href={"https://github.com/bloo0178"}><IoLogoGithub className={styles.icon} /></a>
         </div>
       </nav>
     )

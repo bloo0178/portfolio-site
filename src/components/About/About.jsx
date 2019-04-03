@@ -8,38 +8,30 @@ export class About extends React.Component {
         <h1>About</h1>
         <div className={styles.content}>
           <p>
-            I am absolutely obsessed with the infinite loop of learning,
-            applying, and improving technology to evolve the things we do and
-            how we do them. My passion is software engineering, with my
-            technical skills being grounded in over 10 years of practical
-            business experience.
+            I am absolutely obsessed with the infinite pursuit of learning and
+            applying technology to evolve the things we do and the way we do
+            them. My passion is software engineering, and my technical skills
+            are complemented by over a decade of pragmatic business experience.
           </p>
           <p>
-            I have held multiple Business Systems Analyst roles within a major
-            global corporation and most recently held a Solutions Architect role
-            at a nationally-recognized digital business consultancy. I've
-            operated within a variety of team structures and have extensive
-            experience leading complex initiatives inclusive of UX, BA, Dev, QA,
-            and PM talent.
+            I have held Business Systems Analyst roles for global organizations,
+            and most recently worked as a Solutions Architect at a
+            nationally-recognized digital business consultancy. I truly enjoy
+            working as part of a tight team, and have deep experience leading
+            complex initiatives inclusive of UX, BA, Dev, QA, and PM talent.
           </p>
           <p>
-            My direct experience with dozens of organizations across various
-            industries has provided me insight into the ideal iterative cycle of
-            identifying user needs to drive business and organizational goals,
-            which in turn inform technology choices. I've learned to avoid
-            dogmatic views towards any particular technology and instead
-            recognize that every technology choice has pros and cons, as well as
-            an ideal use case. I believe a major component of staying
-            competitive in today's tech-centric business landscape is to
-            maintain a position of relative fluency and adaptability with
-            respect to all modern technology trends.
+            My experience with dozens of organizations and industries has
+            provided me a practical view into how user needs should drive
+            business goals. I try to avoid dogmatic views towards technology for
+            this reason. Flowing with meaningful innovation to continually
+            evolve what you do and how you do it is paramount to staying useful.
           </p>
           <p>
-            Technologies that currently interest me are React and it's extensive
-            ecosystem for interface and mobile development, and serverless
-            stacks for backend implementations. If my background and
-            capabilities interest you, don't hesitate to connect so that we can
-            continue the conversation!
+            My focus has most recently been directed at React and it's extensive
+            ecosystem for interface development, and the use of serverless
+            stacks for backend implementations. If my background interests you,
+            let's connect so that we can continue the conversation!
           </p>
         </div>
       </div>
