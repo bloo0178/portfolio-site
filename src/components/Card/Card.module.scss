@@ -1,36 +1,68 @@
 @import "../../common/_variables";
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
-    background-color: $card-background;
-    //background-color: white;
-    color: $card-text-color;
-    //border-top: 2px solid $card-links-color;
-    border-left: 2px solid $card-links-color;
-    //border-right: 2px solid $card-links-color;
-    //border-bottom: 2px solid $card-links-color;
-    width: 80%;
-    max-width: 75rem;
-    padding: 1rem;
-    margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  background-color: $card-background;
+  //background-color: black;
+  color: $card-text-color;
+  //border-top: 2px solid $card-links-color;
+  //border-left: 2px solid $card-links-color;
+  //border-right: 2px solid $card-links-color;
+  //border-bottom: 2px solid $card-links-color;
+  width: 80%;
+  max-width: 75rem;
+  padding: 1rem;
+  margin: 1rem;
+  position: relative; 
 
-    .stack {
-        font-style: italic;
+  .stack {
+    font-style: italic;
+  }
+}
+
+.corner {
+    backface-visibility: hidden;
+    border-right: 2px solid gold;
+    border-top: 2px solid gold;
+    height: 15px;
+    position: absolute;
+    width: 15px;
+
+    &:nth-of-type(1) {
+        right: 0;
+        top: 0;
+    }
+
+    &:nth-of-type(2) {
+        left: 0;
+        top: 0;
+        transform: rotateZ(-90deg);
+    }
+
+    &:nth-of-type(3) {
+        bottom: 0;
+        left: 0;
+        transform: rotateZ(180deg);
+    }
+
+    &:nth-of-type(4) {
+        bottom: 0;
+        right: 0;
+        transform: rotateZ(90deg);
     }
 }
 
-
 .links {
-    a {
-        margin-right: 1rem;
-        margin-left: 1rem;
-        color: $card-links-color;
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
+  a {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: $card-links-color;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
