@@ -6,6 +6,10 @@ class Card extends React.Component {
     const { demoUrl, srcUrl, title, description, tech } = this.props;
     return (
       <div className={styles.container}>
+      <div className={styles.corner}></div>
+        <div className={styles.corner}></div>
+        <div className={styles.corner}></div>
+        <div className={styles.corner}></div>
         <div>
           <h3>{title}</h3>
         </div>
@@ -19,6 +23,7 @@ class Card extends React.Component {
           <a href={demoUrl}>Demo ></a>
           <a href={srcUrl}>Source ></a>
         </div>
+        
       </div>
     );
   }

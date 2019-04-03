@@ -36,17 +36,10 @@ class Projects extends React.Component {
     return (
       <div className={styles.container}>
         <div>
-          <h2>Projects</h2>
+          <h1>Projects</h1>
         </div>
         <div className={styles.cards}>
         {this.projectCards()}
-          {/*<Card
-            title="test"
-            description="Quo alii voluptua apeirian in. Ex modus noster nostrum sed. Qui no
-            paulo platonem, has te ridens praesent."
-            demoURL="jeffbloom.io"
-            srcURL="jeffbloom.io"
-          />*/}
         </div>
       </div>
     );
