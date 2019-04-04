@@ -8,31 +8,25 @@ export class About extends React.Component {
         <h1>About</h1>
         <div className={styles.content}>
           <p>
-            I am obsessed with the infinite pursuit of learning and
-            applying technology to evolve the things we do and the way we do
-            them. My passion is software engineering, and my technical skills
-            are complemented by over a decade of pragmatic business experience.
+            I am obsessed with the infinite pursuit of learning and applying
+            technology to evolve the things we do and the way we do them. My
+            personal passion is software development.
           </p>
           <p>
-            I have held Business Systems Analyst roles for global organizations,
-            and most recently worked as a Solutions Architect at a
-            nationally-recognized digital business consultancy. I truly enjoy
-            working as part of a tight team, and have deep experience leading
+            I have over a decade of professional experience mixing equal parts
+            systems and design thinking. I have worked as a Business
+            Systems Analyst for multiple global organizations, and most recently
+            as a Solutions Architect at an award-winning digital business
+            consultancy. I find being a part of deeply-engaged teams very
+            rewarding, and have extensive experience leading and engaging in
             complex efforts inclusive of UX, BA, Dev, QA, and PM talent.
           </p>
           <p>
-            My experience with dozens of organizations and industries has
-            provided me a practical view into how user needs should drive
-            business goals. I try to avoid dogmatic views towards technology for
-            this reason - leverage what makes sense. Flowing with the current of
-            meaningful innovation rather than fighting it is a necessary part of
-            evolution, even if it sometimes means reinventing yourself.
-          </p>
-          <p>
-            My focus has most recently been directed towards React and it's extensive
-            ecosystem for interface development, and the use of serverless
-            stacks for backend implementations. If my background interests you,
-            let's connect and continue the conversation!
+            My work with dozens of organizations has provided me a practical
+            view into the relationship between user needs and business goals.
+            This has taught me to avoid technology bias - leverage what makes
+            sense within the context of the situation and always embrace
+            innovation that sparks an evolution.
           </p>
         </div>
       </div>

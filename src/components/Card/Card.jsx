@@ -1,20 +1,14 @@
 import React from "react";
 import styles from "./Card.module.scss";
 
-class Card extends React.Component {
+class Card2 extends React.Component {
   render() {
-    const { demoUrl, srcUrl, title, description, tech } = this.props;
+    const { demoUrl, srcUrl, title, tech } = this.props;
     return (
       <div className={styles.container}>
-      <div className={styles.corner}></div>
-        <div className={styles.corner}></div>
-        <div className={styles.corner}></div>
-        <div className={styles.corner}></div>
+        <div className={styles.corner} />
         <div>
           <h3>{title}</h3>
-        </div>
-        <div>
-          <p>{description}</p>
         </div>
         <div className={styles.stack}>
           <p>Stack: {tech}</p>
@@ -23,7 +17,6 @@ class Card extends React.Component {
           <a href={demoUrl}>Demo ></a>
           <a href={srcUrl}>Source ></a>
         </div>
-        
       </div>
     );
   }
@@ -31,4 +24,4 @@ class Card extends React.Component {
 
 // validate proptypes here
 
-export default Card;
+export default Card2;
