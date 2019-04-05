@@ -9,22 +9,17 @@ export class About extends React.Component {
         <div className={styles.content}>
           <p>
             I am obsessed with the infinite pursuit of learning and applying
-            technology to evolve the things we do. My
-            personal passion is software development.
+            technology to evolve the things we do. My passion is software development.
           </p>
           <p>
             I have over a decade of professional experience mixing equal parts
             systems and design thinking. Most recently I worked
             as a Solutions Architect at an award-winning digital business
-            consultancy. I find being part of deeply-engaged teams very
-            rewarding, and have extensive experience leading and taking part in
-            complex efforts inclusive of UX, BA, Dev, QA, and PM talent.
+            consultancy - working closely with UX designers and developers from all disciplines to create tailored digital strategies coupled with custom software solutions.
           </p>
           <p>
-            My work with dozens of organizations has provided me a practical
-            view into the relationship between user needs and business goals.
-            This has taught me to avoid technology bias - leverage what makes
-            sense within the context of the situation and embrace
+            My work with dozens of organizations has provided me with a unique perspective into the relationship between users and businesses.
+            These experiences have taught me to avoid technology bias - leverage what makes sense within the context of the situation and embrace
             innovation that sparks evolution.
           </p>
         </div>
