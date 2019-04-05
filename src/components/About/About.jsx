@@ -8,19 +8,14 @@ export class About extends React.Component {
         <h1>About</h1>
         <div className={styles.content}>
           <p>
-            I am obsessed with the infinite pursuit of learning and applying
-            technology to evolve the things we do. My passion is software development.
+            I am obsessed with the infinite challenge of learning and applying
+            technology to evolve the things we do. My passion is software development, and I have over a decade of experience mixing equal parts systems and design thinking.
           </p>
           <p>
-            I have over a decade of professional experience mixing equal parts
-            systems and design thinking. Most recently I worked
-            as a Solutions Architect at an award-winning digital business
-            consultancy - working closely with UX designers and developers from all disciplines to create tailored digital strategies coupled with custom software solutions.
+          My work has provided me with a practical view into the relationship between users and businesses and how technology supports that. Most recently I was a Solutions Architect at an award-winning digital business consultancy - working closely with UX designers and developers from all disciplines to create tailored strategies coupled with custom software solutions.
           </p>
           <p>
-            My work with dozens of organizations has provided me with a unique perspective into the relationship between users and businesses.
-            These experiences have taught me to avoid technology bias - leverage what makes sense within the context of the situation and embrace
-            innovation that sparks evolution.
+            I currently work heavily with React for interface development and have been using serverless approaches and Node for backend development. With that said, I am not rigid in my technology choices and refresh my knowledge regularly. If my background interests you, please don't hesitate to connect with me.
           </p>
         </div>
       </div>
