@@ -4,27 +4,28 @@ exports[`Card component it matches the snapshot 1`] = `
 <div
   className="container"
 >
+  <div
+    className="corner"
+  />
   <div>
     <h3>
       Test Title
     </h3>
   </div>
-  <div>
+  <div
+    className="stack"
+  >
     <p>
-      This is a project's description
+      Stack: 
     </p>
   </div>
   <div
     className="links"
   >
-    <a
-      href="demoURL.com"
-    >
+    <a>
       Demo &gt;
     </a>
-    <a
-      href="srcURL.com"
-    >
+    <a>
       Source &gt;
     </a>
   </div>
