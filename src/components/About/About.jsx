@@ -8,16 +8,16 @@ export class About extends React.Component {
         <h1>About</h1>
         <div className={styles.content}>
           <p>
-            I am obsessed with the infinite challenge of learning and applying
+            I am fascinated with the infinite challenge of learning and applying
             technology to evolve the things we do. My passion is software
-            development, and I have over a decade of experience mixing equal
-            parts systems and design thinking.
+            development, and I have over a decade of experience applying both
+            systems and design thinking.
           </p>
           <p>
             My work has provided me with a practical view into the relationship
             between users and businesses and how technology supports that. Most
             recently I was a Solutions Architect at an award-winning digital
-            business consultancy - working closely with UX designers and
+            business consultancy - collaborating with UX designers and
             developers from all disciplines to create tailored strategies
             coupled with custom software solutions.
           </p>
