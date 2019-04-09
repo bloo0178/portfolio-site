@@ -14,12 +14,12 @@ export class About extends React.Component {
             systems and design thinking.
           </p>
           <p>
-            My work has provided me with a practical view into the relationship
-            between users and businesses and how technology supports that. Most
-            recently I was a Solutions Architect at an award-winning digital
-            business consultancy - collaborating with UX designers and
-            developers from all disciplines to create tailored strategies
-            coupled with custom software solutions.
+            My work has allowed me to operate between users and businesses and
+            define how technology supports those relationships. Most recently I
+            was a Solutions Architect at an award-winning digital business
+            consultancy - collaborating with UX designers and developers from
+            all disciplines to create tailored strategies coupled with custom
+            software solutions.
           </p>
           <p>
             I currently work heavily with React for interface development and
@@ -29,7 +29,6 @@ export class About extends React.Component {
             please don't hesitate to connect with me.
           </p>
         </div>
-
       </div>
     );
   }

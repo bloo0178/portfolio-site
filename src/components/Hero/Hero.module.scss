@@ -63,3 +63,10 @@
   height: 300px;
   z-index: 1;
 }
+
+.semiCircle {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: -5px; // Figure out why this is needed...
+}
