@@ -29,6 +29,7 @@ export class About extends React.Component {
             please don't hesitate to connect with me.
           </p>
         </div>
+
       </div>
     );
   }

@@ -7,7 +7,7 @@ class Hero extends React.Component {
     return (
       <div className={styles.container}>
         <div className={styles.logo}>
-          <img src={logo} width="100%" height="100%" />
+          <img src={logo} alt="logo" width="100%" height="100%" />
         </div>
       </div>
     );
