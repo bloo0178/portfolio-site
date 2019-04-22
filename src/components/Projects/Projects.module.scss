@@ -1,11 +1,11 @@
 @import "../../common/_variables";
 
 .container {
-  padding: 1rem;
-  padding-bottom: 5rem;
-  display: flex; 
+  padding-bottom: 2rem;
+  display: flex;
   flex-direction: column;
-  text-align: center; 
+  align-items: center;
+  text-align: center;
   background-color: $primary-background;
 }
 

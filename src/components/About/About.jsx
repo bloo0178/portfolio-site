@@ -5,8 +5,8 @@ export class About extends React.Component {
   render() {
     return (
       <div className={styles.container}>
-        <h1>About</h1>
         <div className={styles.content}>
+        <h1>About</h1>
           <p>
             I am fascinated with the infinite challenge of learning and applying
             technology to evolve the things we do. My passion is software
