@@ -5,26 +5,18 @@
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
-  border-radius: 2rem;
+  border-radius: 10px;
+  background-color: $card-background;
   color: $card-text-color;
   min-width: 200px;
-  width: 50%;
+  width: 40vw;
+  max-width: 400px;
   padding: 1rem;
   margin: 1rem;
-  margin-bottom: 5rem;
-  position: relative; 
 
   .stack {
     font-style: italic;
   }
-}
-
-.corner {
-    border-left: 2px dotted $icon-hover-color;
-    height: 100%;
-    position: absolute;
-    top:1rem;
-    transform: translateX(-1rem);
 }
 
 .links {
@@ -38,3 +30,5 @@
     text-decoration: underline;
   }
 }
+
+

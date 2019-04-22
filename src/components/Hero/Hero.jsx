@@ -10,9 +10,7 @@ class Hero extends React.Component {
         <div className={styles.logo}>
           <img src={logo} alt="logo" width="100%" height="100%" />
         </div>
-        {/*<div className={styles.semiCircle}>
-          <img src={semiCircle} alt="" width="100%" height="100%" />
-    </div>*/}
+
       </div>
     );
   }

@@ -64,9 +64,11 @@
   z-index: 1;
 }
 
-.semiCircle {
+.svgcircle {
   position: absolute;
   bottom: 0;
-  width: 100%;
-  margin-bottom: -5px; // Figure out why this is needed...
+  //border: solid 1px white;
+  width: 20vw;
+  height: 20vh;
+  margin-bottom: -10vh;
 }
