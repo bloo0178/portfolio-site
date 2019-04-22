@@ -11,16 +11,26 @@
   text-align: center;
   //width: 100wh;
   color: #fff;
+  background: url('./images/background-2.jpg');
+  background-size: cover;
+  background-position: center 0;
+
+  /*  --- ANIMATED GRADIENT ---
+  
   background: linear-gradient(-45deg, #003973, #e5e5be);
   background-size: 400% 400%;
   -webkit-animation: Gradient 10s ease infinite;
   -moz-animation: Gradient 10s ease infinite;
   animation: Gradient 10s ease infinite;
+  
+  */
 
   h2 {
     font-style: italic;
   }
 }
+
+/*  --- ANIMATED GRADIENT --- 
 
 @-webkit-keyframes Gradient {
   0% {
@@ -58,15 +68,17 @@
   }
 }
 
+*/
+
 .logo {
   width: 75vw;
   height: 300px;
-  z-index: 1;
 }
 
-.semiCircle {
+.svgcircle {
   position: absolute;
   bottom: 0;
-  width: 100%;
-  margin-bottom: -5px; // Figure out why this is needed...
+  width: 20vw;
+  height: 20vh;
+  margin-bottom: -10vh;
 }

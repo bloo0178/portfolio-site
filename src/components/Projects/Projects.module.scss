@@ -1,14 +1,11 @@
 @import "../../common/_variables";
 
 .container {
-  background-color: transparent;
-  padding-top: 4rem;
   padding-bottom: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  display: flex; 
+  display: flex;
   flex-direction: column;
-  text-align: center; 
+  align-items: center;
+  text-align: center;
   background-color: $primary-background;
 }
 
