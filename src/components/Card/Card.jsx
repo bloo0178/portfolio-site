@@ -6,7 +6,7 @@ class Card extends React.Component {
     const { demoUrl, srcUrl, title, tech } = this.props;
     return (
       <div className={styles.container}>
-        <div>
+        <div className={styles.title}>
           <h3>{title}</h3>
         </div>
         <div className={styles.stack}>

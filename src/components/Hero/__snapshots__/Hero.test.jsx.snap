@@ -5,14 +5,14 @@ exports[`Hero component it matches the snapshot 1`] = `
   className="container"
 >
   <div
-    className="title"
+    className="logo"
   >
-    <h1>
-      Jeff Bloom
-    </h1>
-    <h2>
-      // Full Stack Dev
-    </h2>
+    <img
+      alt="logo"
+      height="100%"
+      src="logo.svg"
+      width="100%"
+    />
   </div>
 </div>
 `;

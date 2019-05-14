@@ -35,6 +35,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div className={styles.container}>
+      <h1>Projects</h1>
         <div className={styles.cards}>
         {this.projectCards()}
         </div>

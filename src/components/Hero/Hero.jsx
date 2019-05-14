@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.scss";
 import logo from "./images/logo.svg";
-import semiCircle from "./images/semi_circle.svg";
 
 class Hero extends React.Component {
   render() {
