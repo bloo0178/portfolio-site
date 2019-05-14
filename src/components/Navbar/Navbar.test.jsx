@@ -1,10 +1,10 @@
 import React from "react";
 import { create } from "react-test-renderer";
-import { About } from "./About";
+import NavBar from "./Navbar";
 
-describe("About component", () => {
+describe("NavBar component", () => {
 	test("it matches the snapshot", () => {
-		const component = create(<About />);
+		const component = create(<NavBar />);
 		expect(component.toJSON()).toMatchSnapshot();
 	});
 });
