@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects component it matches the snapshot 1`] = `
+<div
+  className="container"
+>
+  <h1>
+    Projects
+  </h1>
+  <div
+    className="cards"
+  />
+</div>
+`;
