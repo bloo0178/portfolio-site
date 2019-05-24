@@ -8,11 +8,11 @@ export class About extends React.Component {
 				<div className={styles.content}>
 					<h1>About</h1>
 					<p>
-						I am fascinated with the infinite challenge of
-						learning and applying technology to evolve the
-						things we do. My passion is software development,
-						grounded in over a decade of professional
-						experience applying systems and design thinking.
+						I am passionate about applying technology to
+						evolve the things we do and how we do them. My
+						focus is software development and system
+						architecture, grounded in over a decade of
+						professional experience.
 					</p>
 					<p>
 						I have worked between businesses and users
@@ -21,23 +21,22 @@ export class About extends React.Component {
 						recently as a Solutions Architect at an
 						award-winning digital business consultancy, I
 						collaborated with UX designers and developers to
-						create digital strategies paired with custom
-						software solutions.
+						define and implement digital strategies paired
+						with custom software solutions.
 					</p>
 					<p>
-						I currently work heavily with React for interface
-						development and have been using serverless
-						approaches for backend needs. I am not rigid in my
-						technology choices and refresh my knowledge
-						regularly.
+						I currently enjoy using React for interface
+						development and serverless approaches for backend
+						needs. I am not rigid in my technology choices,
+						however, and refresh my knowledge regularly.
 					</p>
 					<p>
 						I am interested in opportunities that involve
 						solving practical business or systemic problems
 						through focused analysis, system design, and
-						ultimately directed software development. If my
-						background interests you, let's connect and see
-						how we can work together.
+						directed software development. If my background
+						interests you, let's connect and see how we can
+						work together.
 					</p>
 				</div>
 			</div>

@@ -25,8 +25,9 @@ class Projects extends React.Component {
       description={project.description}
       title={project.name}
       demoUrl={project.demoUrl}
-      srcUrl={project.codeUrl}
       tech={project.tech}
+      backendSource={project.backendSource}
+      frontendSource={project.frontendSource}
       />
     ))}
     </>
